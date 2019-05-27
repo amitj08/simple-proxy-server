@@ -8,8 +8,8 @@ A multithreaded proxy server in python, implemented using threading and sockets 
 - Blackilisting: Blocking of websites using a CIDR list (stored in `proxy/blacklist.txt`)
 - Authentication : username and password required to view blacklisted domains(stored in `proxy/authentication.txt`)
 - Tested on following http websites:
-    - [Baidu](www.baidu.com)
-    - [ICZN](www.iczn.org)
+    - [Baidu](http://www.baidu.com)
+    - [ICZN](http://www.iczn.org)
 
 ### To Run
 - Fix the port on your host to 20100 (server assumes to be on the port 20100 and re-routes requests through it).
